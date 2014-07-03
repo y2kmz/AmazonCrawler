@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+	<!-- Only read this domain's links -->
+	<domain>www.amazon.com</domain>
+	
+	<!-- If the url contains any word below, ignore it-->
+	<exclude-link>
+		<character>/cart/</character>
+		<character>/registry/</character>
+		<character>/Help/</character>
+		<character>javascript:</character>
+		<character>/exec/</character>
+		<character>/review/</character>
+		<character>/voting/</character>
+		<character>/upload/</character>
+		<character>/prime</character>
+		<character>/gp/video/library</character>
+		<character>/clouddrive</character>
+		<character>/gp/digital/fiona/</character>
+		<character>/ap/signin</character>
+		<character>homepage.html</character>
+		<character>/gp/jobs</character>
+		<character>/interestbasedads</character>
+		<character>/access</character>
+		<character>/help/</character>
+		<character>/mom/signup</character>
+		<character>/yourstore/</character>
+		<character>location=http</character>
+	</exclude-link>
+</rule>

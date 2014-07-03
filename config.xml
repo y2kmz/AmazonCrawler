@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed>
+	<!-- feed -->
+	<url>http://www.amazon.com</url>
+	
+	<!-- specify "true" to restart process (clear the url queue and start crawling from feed.)-->
+	<!-- otherwise it will continue from the last closing time point-->
+	<newstart>false</newstart>
+	
+	<!-- Database configuration-->
+	<db>
+		<link><![CDATA[jdbc:mysql://localhost:3306/crawler?useUnicode=true&characterEncoding=UTF-8]]></link>
+		<id>root</id>
+		<password></password>
+	</db>
+</feed>
